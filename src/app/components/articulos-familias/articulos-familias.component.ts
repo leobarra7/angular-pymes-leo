@@ -14,8 +14,8 @@ export class ArticulosFamiliasComponent implements OnInit {
   Items: ArticuloFamilia[] = [];
 
   constructor(
-    private articulosFamiliasService:  MockArticulosFamiliasService
-    //private articulosFamiliasService:  ArticulosFamiliasService
+    //private articulosFamiliasService:  MockArticulosFamiliasService
+    private articulosFamiliasService:  ArticulosFamiliasService
   ){}
 
   ngOnInit() {
