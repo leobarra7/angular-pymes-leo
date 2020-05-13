@@ -9,3 +9,4 @@ export class AppComponent  {
   titulo = 'Pymes Demo - 2020';
   name = 'Angular ' + VERSION.major;
 }
+
